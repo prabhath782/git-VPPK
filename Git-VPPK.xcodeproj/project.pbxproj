@@ -15,6 +15,7 @@
 		512CDF2C1DDA46E7006001D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 512CDF2A1DDA46E7006001D1 /* LaunchScreen.storyboard */; };
 		512CDF371DDA46E7006001D1 /* Git_VPPKTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 512CDF361DDA46E7006001D1 /* Git_VPPKTests.swift */; };
 		512CDF421DDA46E7006001D1 /* Git_VPPKUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 512CDF411DDA46E7006001D1 /* Git_VPPKUITests.swift */; };
+		512CDF501DDA48FC006001D1 /* SeaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 512CDF4F1DDA48FC006001D1 /* SeaVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		512CDF3D1DDA46E7006001D1 /* Git-VPPKUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Git-VPPKUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		512CDF411DDA46E7006001D1 /* Git_VPPKUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Git_VPPKUITests.swift; sourceTree = "<group>"; };
 		512CDF431DDA46E7006001D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		512CDF4F1DDA48FC006001D1 /* SeaVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeaVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				512CDF211DDA46E7006001D1 /* FirstViewController.swift */,
 				512CDF231DDA46E7006001D1 /* SecondViewController.swift */,
 				512CDF251DDA46E7006001D1 /* Main.storyboard */,
+				512CDF4F1DDA48FC006001D1 /* SeaVC.swift */,
 				512CDF281DDA46E7006001D1 /* Assets.xcassets */,
 				512CDF2A1DDA46E7006001D1 /* LaunchScreen.storyboard */,
 				512CDF2D1DDA46E7006001D1 /* Info.plist */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				512CDF501DDA48FC006001D1 /* SeaVC.swift in Sources */,
 				512CDF241DDA46E7006001D1 /* SecondViewController.swift in Sources */,
 				512CDF201DDA46E7006001D1 /* AppDelegate.swift in Sources */,
 				512CDF221DDA46E7006001D1 /* FirstViewController.swift in Sources */,
