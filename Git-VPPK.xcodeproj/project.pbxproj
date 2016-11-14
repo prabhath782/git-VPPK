@@ -1,0 +1,509 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		512CDF201DDA46E7006001D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 512CDF1F1DDA46E7006001D1 /* AppDelegate.swift */; };
+		512CDF221DDA46E7006001D1 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 512CDF211DDA46E7006001D1 /* FirstViewController.swift */; };
+		512CDF241DDA46E7006001D1 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 512CDF231DDA46E7006001D1 /* SecondViewController.swift */; };
+		512CDF271DDA46E7006001D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 512CDF251DDA46E7006001D1 /* Main.storyboard */; };
+		512CDF291DDA46E7006001D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 512CDF281DDA46E7006001D1 /* Assets.xcassets */; };
+		512CDF2C1DDA46E7006001D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 512CDF2A1DDA46E7006001D1 /* LaunchScreen.storyboard */; };
+		512CDF371DDA46E7006001D1 /* Git_VPPKTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 512CDF361DDA46E7006001D1 /* Git_VPPKTests.swift */; };
+		512CDF421DDA46E7006001D1 /* Git_VPPKUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 512CDF411DDA46E7006001D1 /* Git_VPPKUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		512CDF331DDA46E7006001D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 512CDF141DDA46E6006001D1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 512CDF1B1DDA46E7006001D1;
+			remoteInfo = "Git-VPPK";
+		};
+		512CDF3E1DDA46E7006001D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 512CDF141DDA46E6006001D1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 512CDF1B1DDA46E7006001D1;
+			remoteInfo = "Git-VPPK";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		512CDF1C1DDA46E7006001D1 /* Git-VPPK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Git-VPPK.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		512CDF1F1DDA46E7006001D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		512CDF211DDA46E7006001D1 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		512CDF231DDA46E7006001D1 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		512CDF261DDA46E7006001D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		512CDF281DDA46E7006001D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		512CDF2B1DDA46E7006001D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		512CDF2D1DDA46E7006001D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		512CDF321DDA46E7006001D1 /* Git-VPPKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Git-VPPKTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		512CDF361DDA46E7006001D1 /* Git_VPPKTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Git_VPPKTests.swift; sourceTree = "<group>"; };
+		512CDF381DDA46E7006001D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		512CDF3D1DDA46E7006001D1 /* Git-VPPKUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Git-VPPKUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		512CDF411DDA46E7006001D1 /* Git_VPPKUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Git_VPPKUITests.swift; sourceTree = "<group>"; };
+		512CDF431DDA46E7006001D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		512CDF191DDA46E7006001D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		512CDF2F1DDA46E7006001D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		512CDF3A1DDA46E7006001D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		512CDF131DDA46E6006001D1 = {
+			isa = PBXGroup;
+			children = (
+				512CDF1E1DDA46E7006001D1 /* Git-VPPK */,
+				512CDF351DDA46E7006001D1 /* Git-VPPKTests */,
+				512CDF401DDA46E7006001D1 /* Git-VPPKUITests */,
+				512CDF1D1DDA46E7006001D1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		512CDF1D1DDA46E7006001D1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				512CDF1C1DDA46E7006001D1 /* Git-VPPK.app */,
+				512CDF321DDA46E7006001D1 /* Git-VPPKTests.xctest */,
+				512CDF3D1DDA46E7006001D1 /* Git-VPPKUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		512CDF1E1DDA46E7006001D1 /* Git-VPPK */ = {
+			isa = PBXGroup;
+			children = (
+				512CDF1F1DDA46E7006001D1 /* AppDelegate.swift */,
+				512CDF211DDA46E7006001D1 /* FirstViewController.swift */,
+				512CDF231DDA46E7006001D1 /* SecondViewController.swift */,
+				512CDF251DDA46E7006001D1 /* Main.storyboard */,
+				512CDF281DDA46E7006001D1 /* Assets.xcassets */,
+				512CDF2A1DDA46E7006001D1 /* LaunchScreen.storyboard */,
+				512CDF2D1DDA46E7006001D1 /* Info.plist */,
+			);
+			path = "Git-VPPK";
+			sourceTree = "<group>";
+		};
+		512CDF351DDA46E7006001D1 /* Git-VPPKTests */ = {
+			isa = PBXGroup;
+			children = (
+				512CDF361DDA46E7006001D1 /* Git_VPPKTests.swift */,
+				512CDF381DDA46E7006001D1 /* Info.plist */,
+			);
+			path = "Git-VPPKTests";
+			sourceTree = "<group>";
+		};
+		512CDF401DDA46E7006001D1 /* Git-VPPKUITests */ = {
+			isa = PBXGroup;
+			children = (
+				512CDF411DDA46E7006001D1 /* Git_VPPKUITests.swift */,
+				512CDF431DDA46E7006001D1 /* Info.plist */,
+			);
+			path = "Git-VPPKUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		512CDF1B1DDA46E7006001D1 /* Git-VPPK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 512CDF461DDA46E7006001D1 /* Build configuration list for PBXNativeTarget "Git-VPPK" */;
+			buildPhases = (
+				512CDF181DDA46E7006001D1 /* Sources */,
+				512CDF191DDA46E7006001D1 /* Frameworks */,
+				512CDF1A1DDA46E7006001D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Git-VPPK";
+			productName = "Git-VPPK";
+			productReference = 512CDF1C1DDA46E7006001D1 /* Git-VPPK.app */;
+			productType = "com.apple.product-type.application";
+		};
+		512CDF311DDA46E7006001D1 /* Git-VPPKTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 512CDF491DDA46E7006001D1 /* Build configuration list for PBXNativeTarget "Git-VPPKTests" */;
+			buildPhases = (
+				512CDF2E1DDA46E7006001D1 /* Sources */,
+				512CDF2F1DDA46E7006001D1 /* Frameworks */,
+				512CDF301DDA46E7006001D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				512CDF341DDA46E7006001D1 /* PBXTargetDependency */,
+			);
+			name = "Git-VPPKTests";
+			productName = "Git-VPPKTests";
+			productReference = 512CDF321DDA46E7006001D1 /* Git-VPPKTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		512CDF3C1DDA46E7006001D1 /* Git-VPPKUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 512CDF4C1DDA46E7006001D1 /* Build configuration list for PBXNativeTarget "Git-VPPKUITests" */;
+			buildPhases = (
+				512CDF391DDA46E7006001D1 /* Sources */,
+				512CDF3A1DDA46E7006001D1 /* Frameworks */,
+				512CDF3B1DDA46E7006001D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				512CDF3F1DDA46E7006001D1 /* PBXTargetDependency */,
+			);
+			name = "Git-VPPKUITests";
+			productName = "Git-VPPKUITests";
+			productReference = 512CDF3D1DDA46E7006001D1 /* Git-VPPKUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		512CDF141DDA46E6006001D1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Northwest missouri state university";
+				TargetAttributes = {
+					512CDF1B1DDA46E7006001D1 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					512CDF311DDA46E7006001D1 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 512CDF1B1DDA46E7006001D1;
+					};
+					512CDF3C1DDA46E7006001D1 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 512CDF1B1DDA46E7006001D1;
+					};
+				};
+			};
+			buildConfigurationList = 512CDF171DDA46E6006001D1 /* Build configuration list for PBXProject "Git-VPPK" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 512CDF131DDA46E6006001D1;
+			productRefGroup = 512CDF1D1DDA46E7006001D1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				512CDF1B1DDA46E7006001D1 /* Git-VPPK */,
+				512CDF311DDA46E7006001D1 /* Git-VPPKTests */,
+				512CDF3C1DDA46E7006001D1 /* Git-VPPKUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		512CDF1A1DDA46E7006001D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				512CDF2C1DDA46E7006001D1 /* LaunchScreen.storyboard in Resources */,
+				512CDF291DDA46E7006001D1 /* Assets.xcassets in Resources */,
+				512CDF271DDA46E7006001D1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		512CDF301DDA46E7006001D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		512CDF3B1DDA46E7006001D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		512CDF181DDA46E7006001D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				512CDF241DDA46E7006001D1 /* SecondViewController.swift in Sources */,
+				512CDF201DDA46E7006001D1 /* AppDelegate.swift in Sources */,
+				512CDF221DDA46E7006001D1 /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		512CDF2E1DDA46E7006001D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				512CDF371DDA46E7006001D1 /* Git_VPPKTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		512CDF391DDA46E7006001D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				512CDF421DDA46E7006001D1 /* Git_VPPKUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		512CDF341DDA46E7006001D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 512CDF1B1DDA46E7006001D1 /* Git-VPPK */;
+			targetProxy = 512CDF331DDA46E7006001D1 /* PBXContainerItemProxy */;
+		};
+		512CDF3F1DDA46E7006001D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 512CDF1B1DDA46E7006001D1 /* Git-VPPK */;
+			targetProxy = 512CDF3E1DDA46E7006001D1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		512CDF251DDA46E7006001D1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				512CDF261DDA46E7006001D1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		512CDF2A1DDA46E7006001D1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				512CDF2B1DDA46E7006001D1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		512CDF441DDA46E7006001D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		512CDF451DDA46E7006001D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		512CDF471DDA46E7006001D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Git-VPPK/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.nwmissouri.Git-VPPK";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		512CDF481DDA46E7006001D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Git-VPPK/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.nwmissouri.Git-VPPK";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		512CDF4A1DDA46E7006001D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Git-VPPKTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.nwmissouri.Git-VPPKTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Git-VPPK.app/Git-VPPK";
+			};
+			name = Debug;
+		};
+		512CDF4B1DDA46E7006001D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Git-VPPKTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.nwmissouri.Git-VPPKTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Git-VPPK.app/Git-VPPK";
+			};
+			name = Release;
+		};
+		512CDF4D1DDA46E7006001D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Git-VPPKUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.nwmissouri.Git-VPPKUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Git-VPPK";
+			};
+			name = Debug;
+		};
+		512CDF4E1DDA46E7006001D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Git-VPPKUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.nwmissouri.Git-VPPKUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Git-VPPK";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		512CDF171DDA46E6006001D1 /* Build configuration list for PBXProject "Git-VPPK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				512CDF441DDA46E7006001D1 /* Debug */,
+				512CDF451DDA46E7006001D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		512CDF461DDA46E7006001D1 /* Build configuration list for PBXNativeTarget "Git-VPPK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				512CDF471DDA46E7006001D1 /* Debug */,
+				512CDF481DDA46E7006001D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		512CDF491DDA46E7006001D1 /* Build configuration list for PBXNativeTarget "Git-VPPKTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				512CDF4A1DDA46E7006001D1 /* Debug */,
+				512CDF4B1DDA46E7006001D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		512CDF4C1DDA46E7006001D1 /* Build configuration list for PBXNativeTarget "Git-VPPKUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				512CDF4D1DDA46E7006001D1 /* Debug */,
+				512CDF4E1DDA46E7006001D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 512CDF141DDA46E6006001D1 /* Project object */;
+}
